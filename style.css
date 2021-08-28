@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: #000;
+    overflow-x: hidden;
+}
+.logo{
+    height: 40px;
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    background:white;
+    height: 60px;
+}
+
+i{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.babyNav1 li a,
+.babyNav2 li a,
+.babyNav3 li a{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.babyNav1, .babyNav2, .babyNav3, .baby1Nav2, .baby1Nav3 {
+    list-style: none;
+}
+
+.babyNav1 li, .babyNav2 li, .babyNav3 li, .baby1Nav2 li, .baby1Nav3 li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.babyNav1 li :hover
+, .babyNav2 li :hover
+/* , .babyNav3 li :hover */
+, .baby1Nav2 li :hover
+{
+    
+    border-radius: 15px;
+    background: #000;
+    color: white;
+    padding: 7px 10px;
+    
+}
+
+.nav2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 8px 2%;
+    background: #000;
+    height: 50px;
+    color: antiquewhite;
+    border-bottom: 0.3px solid grey;   
+}
+
+.nav2 p{
+    margin-right:auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20 px;
+}
+
+.baby1Nav2 li, a{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.baby1Nav2{
+    margin-right: 50px;
+}
+
+.btn{
+    height: 150%;
+    background:linear-gradient(to bottom,#e2cac5 0,#dbb3a9 100%);
+    width: 150px;
+    border: none;
+    margin-right: -28px;
+    margin-bottom: -8px;
+    cursor: pointer;
+}
+
+
+.nav3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 2%;
+    background: #000;
+    height: 50px;
+    color: antiquewhite;
+    border-bottom: 0.3px solid grey;
+}
+
+.baby1Nav3 li a{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 12px;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.baby1Nav3{
+    margin-right: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.head{
+    color: white;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.buy_now{
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.buy_now:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.con_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+}
+
+.con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.con1 p{
+    width: 1000px;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.con1 h1{
+    font-size: 90px;
+    width: 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
